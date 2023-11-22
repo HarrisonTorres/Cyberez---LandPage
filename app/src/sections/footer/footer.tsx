@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           />
           <p>
             Acesse nossa redes sociais e descubra mais sobre nosso propositos.
-            "Rede sociais emcaminha para o criador do site"
+            Rede sociais emcaminha para o criador do site
           </p>
         </div>
         <div className={style.redes_sociais}>
@@ -196,7 +196,7 @@ const Footer: React.FC = () => {
                 />
               </g>
             </svg>
-            <span>{"(11) 95776-2990"}</span>
+            <span>11 95776-2990</span>
           </a>
         </div>
       </div>
