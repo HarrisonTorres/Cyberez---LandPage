@@ -1,0 +1,16 @@
+.text_container_default {
+  display: flex;
+  flex-direction: column;
+}
+
+.text_container_default span {
+  background: var(--accent-color);
+  -webkit-text-fill-color: transparent;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  margin-bottom: 8px;
+}
+
+.text_container_default h2 {
+  margin-bottom: 24px;
+}

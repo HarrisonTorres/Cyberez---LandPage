@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    gap: 80px;
+}
+
+.text_container{
+    display: flex;
+    align-items: center;
+    max-width: 761px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container_card{
+    display: flex;
+    flex-direction: row;
+    gap: 62px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container::before{
+    content: url("/svg/Bg_line_left.svg");
+    position: absolute;
+    bottom: -286px;
+    left: -300px;
+    z-index: 1; 
+    pointer-events: none;
+}
+.container::after {
+    content: '';
+    border-radius: 100%;
+    opacity: 0.2;
+    background: rgba(47, 202, 219, 0.60);
+    filter: blur(74px);
+    display: flex;
+    position: absolute;
+    width: 494px;
+    height: 494px;
+    bottom: -247px;
+    left: -347px;
+    pointer-events: none;
+}
